@@ -1,0 +1,29 @@
+{
+	"name": "tools",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://gmagallon.github.io/tools/",
+	"dependencies": {
+		"emotion": "^9.2.12",
+		"graphql": "^14.0.2",
+		"lz-string": "^1.4.4",
+		"react": "^16.5.2",
+		"react-clipboard.js": "^2.0.1",
+		"react-dom": "^16.5.2",
+		"react-emotion": "^9.2.12",
+		"react-materialize": "^2.4.6",
+		"react-router-dom": "^4.3.1",
+		"react-scripts": "1.1.5"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"predeploy": "PUBLIC_URL=/tools/ npm run build",
+		"deploy": "npx gh-pages -d build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.0.0"
+	}
+}
